@@ -1,0 +1,19 @@
+{
+  "sources": [
+    {
+      "name": "Formula 1 2025",
+      "url": "https://yoursite.com/f1_2025.json",
+      "enabled": true
+    },
+    {
+      "name": "MotoGP 2025",
+      "url": "https://yoursite.com/motogp_2025.json",
+      "enabled": true
+    },
+    {
+      "name": "My Motorsport Collection",
+      "url": "https://yoursite.com/collection.json",
+      "enabled": true
+    }
+  ]
+}
