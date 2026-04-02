@@ -1,2 +1,2 @@
 # TQLT
-TQ a*p*k
+TQLT
