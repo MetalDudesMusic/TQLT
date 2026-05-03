@@ -163,7 +163,8 @@ async function handleStream(req, res) {
   res.setHeader('Content-Type', 'application/json');
   const { rdKey, type, id } = req.params;
   if (type !== 'channel') return res.json({ streams: [] });
-  const streams = await getStreams(type, id, rdKey || '');
+  const decodedKey = rdKey ? decodeURIComponent(rdKey) : '';
+  const streams = await getStreams(type, id, decodedKey);
   res.json({ streams });
 }
 app.get('/:rdKey/stream/:type/:id.json', handleStream);
