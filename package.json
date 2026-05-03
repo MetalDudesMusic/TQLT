@@ -1,0 +1,14 @@
+{
+  "name": "torquelite-stremio",
+  "version": "1.0.0",
+  "description": "Torquelite Motorsport Stremio Addon",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "node-fetch": "^2.7.0",
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
